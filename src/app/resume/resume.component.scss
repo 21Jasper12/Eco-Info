@@ -1,0 +1,186 @@
+.container {
+  padding: 2rem 10rem;
+  background-image: linear-gradient(to top, #ded39c 0%, #79cccc  100%);
+
+  // 第一部分
+  .section-header {
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    .avatar-area {
+      width: 70vw;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url("./../../assets/avatar-2.jpg");
+        background-size: cover;
+        background-position: 50% 20%;
+      }
+    }
+
+    .introduce-area {
+
+      .introduce-link {
+        display: flex;
+        gap:10px;
+        align-items: center;
+
+        .github-img {
+          width: 2rem;
+          height: 2rem;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .linkedIn-img {
+          width: 5vw;
+          height: 5vh;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  // 第二部分
+  .section-work-experience {
+    .work-experience-title {
+      border-bottom: 2px solid orange;
+    }
+
+    .work-item {
+      display: flex;
+
+      .work-title {
+        width: 40vw;
+        gap: 20px;
+
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .company-img {
+          width: 60px;
+          height: 60px;
+          border-radius: 20%;
+        }
+
+        .company-content {
+          .company-name {
+            color: #2611A9
+          }
+
+          .during {
+            font-weight: bolder;
+            color: #807f7f
+          }
+        }
+      }
+
+      .work-content {
+        width: 60vw;
+
+        li {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  // 第三部分
+  .section-skill {
+    .skill-title {
+      border-bottom: 2px solid orange;
+    }
+
+    .skill {
+      display: flex;
+
+      .skill-item {
+        width: 50vw;
+      }
+    }
+  }
+
+  // 第三部分【作品集】
+  .section-portfolio {
+    .portfolio-title {
+      border-bottom: 2px solid orange;
+    }
+
+    .portfolio {
+      .portfolio-item {
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 100px;
+        .portfolio-item-img {
+          width: 300px;
+          height: 140px;
+          margin-top: 50px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  // 第四部份【學歷】
+  .section-educational {
+    .educational-title {
+      border-bottom: 2px solid orange;
+    }
+
+    .educational {
+      display: flex;
+
+      .educational-item {
+        display: flex;
+        gap: 20px;
+        width: 400px;
+
+        .educational-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-top: 10px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .educational-content {
+          .second-title {
+            color: #2611A9;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          p {
+            font-weight: bolder;
+            color: #807f7f;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,298 @@
+/* styles.css */
+// .parallax-container {
+//   position: relative;
+//   height: 1000px;
+//   overflow: hidden;
+// }
+
+// .parallax-bg {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%; /* 設置背景圖片的高度 */
+//   background-image: url('https://stickershop.line-scdn.net/stickershop/v1/product/1043153/LINEStorePC/main.png?v=1');
+//   background-size: cover;
+//   will-change: transform;
+//   transform:  scale(1);
+// }
+
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
+
+
+
+// ==========================================================================================
+// 第二次測試
+// @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+// :root {
+//   --color: rgb(63 63 63);
+// }
+
+// body {
+//   margin: 0;
+//   font-family: Poppins, sans-serif;
+// }
+
+// .parallax-container {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+
+//   /*  this is where the magic happens:  */
+//   background-attachment: fixed;
+
+//   background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+//   background-position: center;
+//   background-size: cover;
+//   color: var(--color);
+//   row-gap: 4rem;
+
+//   text-align: center;
+// }
+
+// .buffer {
+//   width: 100%;
+//   min-height: 60vh;
+//   background-color: var(--color);
+// }
+
+// .parallax-container2 {
+//   flex-direction: row;
+//   flex-wrap: wrap;
+
+//   padding: 6rem 0;
+//   background-image: url(https://images.unsplash.com/photo-1585424536945-26663ea69d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+//   gap: 1.6em;
+// }
+
+// h1 {
+//   font-size: 3rem;
+//   font-weight: 700;
+// }
+
+// p {
+//   max-width: 52ch;
+//   padding: 1em;
+//   line-height: 1.5;
+// }
+
+// a {
+//   display: inline-block;
+//   padding: 1em 3.5em;
+//   border-radius: 0.3em;
+//   background-color: var(--color);
+//   color: white;
+//   font-size: 0.875rem;
+//   font-weight: 700;
+//   letter-spacing: 0.5px;
+//   text-decoration: none;
+//   text-transform: uppercase;
+// }
+
+// h3 {
+//   margin-top: 1em;
+//   font-size: 1.6rem;
+//   font-weight: 700;
+// }
+
+// .card {
+//   display: flex;
+//   max-width: 320px;
+//   flex-direction: column;
+//   align-items: center;
+
+//   padding-bottom: 1rem;
+//   border-radius: 0.5em;
+
+//   background-color: white;
+//   box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+// }
+
+// .card-img {
+//   width: 100%;
+//   height: 200px;
+//   border-radius: 0.3em;
+//   background-position: center;
+//   background-size: cover;
+// }
+
+// .card:nth-of-type(1) .card-img {
+//   background-image: url(https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+// }
+
+// .card:nth-of-type(2) .card-img {
+//   background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80);
+// }
+
+// .card:nth-of-type(3) .card-img {
+//   background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+// }
+
+// .card:nth-of-type(4) .card-img {
+//   background-image: url(https://images.unsplash.com/photo-1496429862132-5ab36b6ae330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80);
+// }
+
+
+// =====================================================================================================
+// 第三次測試
+/* if you do not have this, you will see a
+vertical scrollbar on the .parallax div */
+// body {
+//   margin: 0;
+// }
+
+// .parallax {
+//   height: 100vh;
+//   overflow-x: hidden;
+
+//   perspective: 1px;
+// }
+
+// .parallax-layer {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+// }
+
+// .layer1 {
+//   transform: translateZ(0);
+// }
+
+// .layer2 {
+//   transform: translateZ(-1px);
+// }
+
+// .layer3 {
+//   transform: translateZ(-2px);
+// }
+
+// /* specific to this implementation */
+// div {
+//   font-size: 50px;
+//   text-align: center;
+// }
+
+// .parallax-layer.layer1 {
+//   width: 100%;
+//   height: 100rem;
+
+//   background-color: red;
+// }
+
+// .parallax-layer.layer2 {
+//   top: 10rem;
+
+//   width: 100%;
+//   height: 50rem;
+
+//   background-color: green;
+// }
+
+// .parallax-layer.layer3 {
+//   top: 20rem;
+
+//   width: 100%;
+//   height: 50rem;
+
+//   background-color: blue;
+// }
+
+
+// 第四次測試
+// body {
+//   margin: 0;
+//   font-family:Helvetica,Sans-serif;
+//   overflow-x:hidden;
+// }
+// h1 {
+//   text-align:center;
+// }
+// .page {
+//   width:100vw;
+//   height:100vh;
+//   perspective:1px;
+//   perspective-origin: center center;
+//   overflow-x:hidden;
+// }
+// .overflow {
+//   position:absolute;
+//   width:100vw;
+//   height:80vh;
+//   top:100vh;
+//   background-color:#FFF;
+// }
+// #parallax {
+//   transform-style: preserve-3d;
+//   height:120vh;
+// }
+
+// .keyart_layer {
+// 	background-position: bottom center;
+// 	background-size: cover;
+// 	background-repeat: repeat-x;
+// 	position: absolute;
+//   top:0;
+//   right:0;
+//   bottom:0;
+//   left:0;
+// }
+
+// #keyart-0 {
+//   background-image: url('https://www.firewatchgame.com/images/parallax/parallax0.png');
+//   background-color: #ffaf1b;
+//   transform:translate3d(-11px,-46px,-1.3px) scale(2.3);
+// }
+// #keyart-1 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax1.png');
+//   transform:translate3d(0,-47px,-.7px) scale(1.7);
+// }
+// #keyart-2 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax2.png');
+//   transform:translate3d(0,-98px,-.4px) scale(1.6);
+// }
+// #keyart-3 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax3.png');
+//   transform:translate3d(0,-2px,-.1px) scale(1.1);
+// }
+// #keyart-4 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax4.png');
+//   transform:translate3d(0,35px,.1px) scale(.9);
+// }
+// #keyart-5 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax5.png');
+//   transform:translate3d(0,84px,.2px) scale(.8);
+// }
+// #keyart-6 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax6.png');
+//   transform:translate3d(0, 106px,.3px) scale(.7);
+// }
+// #keyart-7 {
+//   background-image: url('http://www.firewatchgame.com/images/parallax/parallax7.png');
+//   transform:translate3d(0,106px,.38px) scale(.65);
+// }
+// #keyart-8 {
+//   background-image: url('https://www.firewatchgame.com/images/parallax/parallax8.png');
+//   transform:translate3d(0, 180px,.45px) scale(.8);
+// }
+
+// 測試AOS (Animate on Scroll)套件
+.container {
+  width: 100vh;
+  height: 5000px;
+
+  h1 {
+    width: fit-content;
+    background-color: orange;
+    border: 2px solid green;
+    padding: 5px;
+  }
+
+  .test-section {
+    height: 1000px;
+  }
+}

@@ -1,0 +1,242 @@
+<div
+  class="container"
+>
+  <div
+    data-aos="fade-down"
+    data-aos-duration="2000"
+    class="section-header">
+    <div class="avatar-area">
+      <div class="avatar"></div>
+      <h2 class="avatar-content">
+        Eco-Ji
+      </h2>
+    </div>
+    <div class="introduce-area">
+      <h3 class="introduce-content">
+        畢業於國立聯合大學【電機工程學系】，在【自動化產業】擔任機電助理工程師和PLC助理工程師一年的經驗。利用【線上課程】自修並結業，目前任職於【網際威信】Angular前端工程師。閒暇時間有再持續【CICD、docker、kubernetes】的進修
+      </h3>
+      <div class="introduce-link">
+        <img
+          src="./../../assets/github-mark.svg"
+          alt="github"
+          class="github-img"
+          (click)="onClickMedia(MediaLink.GitHub)"
+        >
+        <img
+          src="./../../assets/linkedin-logo.svg"
+          alt="LinkedIn"
+          class="linkedIn-img"
+          (click)="onClickMedia(MediaLink.LinkedIn)"
+        >
+      </div>
+    </div>
+  </div>
+
+  <div
+    data-aos="fade-right"
+    data-aos-duration="2000"
+    class="section-work-experience">
+    <h2 class="work-experience-title">工作經驗</h2>
+    <div class="work">
+      <div class="work-item">
+        <div class="work-title">
+          <img
+            src="./../../assets/company-1.svg"
+            alt="company"
+            class="company-img"
+          >
+          <div class="company-content">
+            <h3 class="personal-title">電控(PLC)助理工程師</h3>
+            <h3 class="company-name">旭東機械工業股份有限公司</h3>
+            <p class="during">七月 2020 - 九月 2020</p>
+          </div>
+        </div>
+        <div class="work-content">
+          <ul>
+           <li>協助機台I/O訊號測試與Sensor位置調整</li>
+           <li>協助建立人機圖面(UI介面)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <div class="work-title">
+          <img
+            src="./../../assets/company-default.svg"
+            alt="company"
+            class="company-img"
+          >
+          <div class="company-content">
+            <h3 class="personal-title">設備組裝助理工程師</h3>
+            <h3 class="company-name">欽陽有限公司</h3>
+            <p class="during">一月 2022 - 十二月 2022</p>
+          </div>
+        </div>
+        <div class="work-content">
+          <ul>
+           <li>識別3D圖組裝設備</li>
+           <li>完成設備風管佈局</li>
+           <li>協助調機和測機</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <div class="work-title">
+          <img
+            src="./../../assets/company-hitrust.svg"
+            alt="company"
+            class="company-img"
+          >
+          <div class="company-content">
+            <h3 class="personal-title">Angular前端工程師</h3>
+            <h3 class="company-name">網際威信股份有限公司</h3>
+            <p class="during">四月 2023 - 現今</p>
+          </div>
+        </div>
+        <div class="work-content">
+          <ul>
+           <li>利用Angular做App、Web切版及功能開發</li>
+           <li>有帶領新人孰悉專案架構經驗</li>
+           <li>有新人與SA溝通協作的經驗，負責demo畫面、codeReview、安排新人切版進度</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    data-aos="fade-left"
+    data-aos-duration="2000"
+    class="section-skill">
+    <h2 class="skill-title">技能</h2>
+    <div class="skill">
+      <div class="skill-item">
+        <div class="skill-item-title">
+          <h3>Front-end-skills</h3>
+        </div>
+        <div class="skill-item-content">
+          <ul>
+           <li>HTML、CSS和JavaScript</li>
+           <li>RWD響應</li>
+           <li>Tailwind、Bootstrap</li>
+           <li>React、Vue、Angular</li>
+           <li>TypeScript</li>
+           <li>能與後端工程師協作串接API</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-item-title">
+          <h3>Other-skills</h3>
+        </div>
+        <div class="skill-item-content">
+          <ul>
+           <li>Git 協作經驗</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 第三部分【作品集】 -->
+  <div
+    data-aos="flip-down"
+    data-aos-duration="2000"
+    class="section-portfolio"
+  >
+    <h2 class="portfolio-title">作品集</h2>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <img
+          src="./../../assets/shopping.jpg"
+          alt="portfolio"
+          class="portfolio-item-img"
+          (click)="onClickPortfolio(PortfolioLink.Shop)"
+        >
+        <div class="portfolio-item-content">
+          <h3 class="title">購物車</h3>
+          <h3>功能：</h3>
+          <ul>
+            <li>RWD</li>
+            <li>使用者可以輸入寄件地址、選擇寄送方式和輸入付款資料</li>
+            <li>使用者可以增加或減少購物籃內的商品數量</li>
+            <li>使用者可以在最後確認付款資料是否正確</li>
+          </ul>
+
+          <h3>使用工具：</h3>
+          <p>TypeScript、React Hooks、React Router、ReduxTollKit、使用JSON-Server串接假資料</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img
+          src="./../../assets/restaurant.jpg"
+          alt="portfolio"
+          class="portfolio-item-img"
+          (click)="onClickPortfolio(PortfolioLink.Restaurant)"
+        >
+        <div class="portfolio-item-content">
+          <h3 class="title">餐廳評論網</h3>
+          <h3>功能：</h3>
+          <ul>
+            <li>使用者可以新增或刪除餐廳評論</li>
+            <li>使用者可以觀看到餐廳資訊</li>
+            <li>使用者可以標註喜歡的餐廳</li>
+            <li>使用者可以觀看其他使用者的基本資訊</li>
+            <li>管理者可以新增、修改和移除餐廳資訊</li>
+            <li>管理者可以給予其他使用者後台使用權限</li>
+          </ul>
+
+          <h3>使用工具：</h3>
+          <p>Vue2</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 第四部份 -->
+  <div
+    data-aos="fade-up-right"
+    data-aos-duration="2000"
+    class="section-educational"
+  >
+    <h2 class="educational-title">學歷</h2>
+    <div class="educational">
+      <div class="educational-item">
+        <img
+          src="./../../assets/alpha-camp.svg"
+          alt="educational"
+          class="educational-img"
+          onclick="window.open('https://tw.alphacamp.co/')"
+        >
+        <div class="educational-content">
+          <h3>ALPHA Camp</h3>
+          <h3
+            class="second-title"
+            onclick="window.open('https://tw.alphacamp.co/dev_bootcamp')"
+          >
+            前端課程
+          </h3>
+          <p class="during">2021 - 2023</p>
+        </div>
+      </div>
+
+      <div class="educational-item">
+        <img
+          src="./../../assets/university.png"
+          alt="educational"
+          class="educational-img"
+          onclick="window.open('https://www.nuu.edu.tw/')"
+        >
+        <div class="educational-content">
+          <h3>國立聯合大學 National United University</h3>
+          <h3
+            class="second-title"
+            onclick="window.open('https://ee.nuu.edu.tw/')"
+          >
+            電機系
+          </h3>
+          <p class="during">2015 - 2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
