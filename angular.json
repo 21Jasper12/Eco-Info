@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test_parallax_scrolling": {
+    "eco-info": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/test_parallax_scrolling",
+            "outputPath": "dist/eco-info",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "test_parallax_scrolling:build:production"
+              "browserTarget": "eco-info:build:production"
             },
             "development": {
-              "browserTarget": "test_parallax_scrolling:build:development"
+              "browserTarget": "eco-info:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "test_parallax_scrolling:build"
+            "browserTarget": "eco-info:build"
           }
         },
         "test": {
@@ -101,6 +101,12 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://21Jasper12.github.io/Eco-Info"
           }
         }
       }
